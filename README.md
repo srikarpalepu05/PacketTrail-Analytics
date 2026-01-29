@@ -1,31 +1,31 @@
 # PacketTrail Analytics
 
-PacketTrail Analytics is a network traffic analysis project designed to transform raw traffic data into actionable insights from a security and audit perspective.
+PacketTrail Analytics is a network traffic analysis project designed to convert raw traffic data into structured insights from a security and operational perspective.
 
-## Project Overview
-Organizations generate massive amounts of network traffic data every day. PacketTrail Analytics simulates how this data can be processed, analyzed, and summarized to identify unusual usage patterns, high-risk behavior, and potential system weaknesses.
+The project simulates how organizations ingest, store, and analyze network activity to identify abnormal behavior, high-usage endpoints, and potential risk indicators.
 
-The project focuses on:
-- Identifying high-usage IP addresses
-- Detecting activity on non-standard ports
-- Summarizing traffic trends for audit review
+## Project Goals
+- Structure raw network traffic data
+- Store traffic logs in a relational database
+- Analyze usage patterns and anomalies
+- Produce summaries useful for review and decision-making
 
-## Technologies Used
+## Technologies
 - Python
 - SQLite
 - SQL
-- Git
+- CSV-based data ingestion
 
-## Key Features
-- Parses simulated network traffic logs
-- Stores structured traffic data in a relational database
-- Generates summary metrics for analysis and review
+## How It Works
+1. Raw traffic data is ingested from CSV files
+2. Data is stored in a local SQLite database
+3. Analytical queries identify trends and risk indicators
+4. A summary report is generated
 
 ## Project Status
-**Completed (Academic Project)**
+Completed
 
-## Future Enhancements
-- Real-time traffic ingestion
-- Visualization dashboard
-- Integration with cloud-based log sources
-
+## Future Improvements
+- Support for real-time traffic ingestion
+- Visualization layer
+- Cloud-based data sources
